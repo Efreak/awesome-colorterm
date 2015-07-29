@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Awesome-colorterm by Efreak</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/Efreak/awesome-colorterm">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/Efreak/awesome-colorterm/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/Efreak/awesome-colorterm/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Awesome-colorterm</h1>
+          <p>A curation of awesome scripts and programs for colorizing terminal output</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/Efreak">Efreak</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a id="awesome-colorterm" class="anchor" href="#awesome-colorterm" aria-hidden="true"><span class="octicon octicon-link"></span></a>awesome-colorterm</h1>
+
+<p>A curated list of scripts, programs, and other functions for a colorful terminal environment.</p>
+
+<h3>
+<a id="info" class="anchor" href="#info" aria-hidden="true"><span class="octicon octicon-link"></span></a>Info</h3>
+
+<p>You'll probably want to set your terminal type to xterm-256color or screen-256color.</p>
+
+<h3>
+<a id="contents" class="anchor" href="#contents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contents</h3>
+
+<ul>
+<li><a href="#colorful-wrapper-scripts--alternatives">Colorful wrapper scripts &amp; alternatives to common terminal commands</a></li>
+<li><a href="#parameters">Parameters for common commands to enable colored output</a></li>
+<li><a href="#grc-definitions">Color definitions for GRC</a></li>
+<li><a href="#terminal-colors">Color definitions for various terminal applications (PuTTY, xterm, etc)</a></li>
+<li><a href="#shell-colors">Color definitions for various shells</a></li>
+<li><a href="#other-resources">Other Resources</a></li>
+</ul>
+
+<h3>
+<a id="colorful-wrapper-scripts--alternatives" class="anchor" href="#colorful-wrapper-scripts--alternatives" aria-hidden="true"><span class="octicon octicon-link"></span></a>Colorful wrapper scripts &amp; alternatives</h3>
+
+<ul>
+<li>
+<a href="http://arsunik.free.fr/prog/cdu.html"><code>cdu</code></a> - (for Color <code>du</code>) is a perl script which call du and display a pretty histogram with optional colors which allow to imediatly see the directories which take disk space.</li>
+<li>
+<a href="http://kassiopeia.juls.savba.sk/%7Egarabik/software/grc.html"><code>grc</code></a> - yet another colouriser (written in python) for beautifying your logfiles or output of commands.</li>
+<li>
+<a href="http://projects.gw-computing.net/projects/dfc"><code>dfc</code></a> - displays file system space usage using graphs and colors. Based on <code>df</code>. able to use colors, draw graphs and export to CSV, HTML.</li>
+<li>
+<a href="https://github.com/nojhan/liquidprompt">nojhan/liquidprompt</a> - for bash and zsh</li>
+<li>
+<a href="http://bre.klaki.net/programs/colormake/"><code>colormake</code></a> - a perl wrapper for <code>make</code> that colorizes the output</li>
+<li>
+<a href="https://github.com/dcjones/colormake"><code>colormake</code></a> - a python wrapper for <code>make</code> that colorizes the output</li>
+<li>
+<a href="https://github.com/trapd00r/File-LsColor">trapd00r/File-LsColor</a> - Colorize input filenames just like ls(1) does</li>
+<li>
+<a href="https://bitbucket.org/linibou/colorex/wiki/Home"><code>colorex</code></a> - display files or sdtin with pretty colors for matched patterns.</li>
+<li>
+<a href="https://github.com/nicoulaj/rainbow"><code>rainbow</code></a> - Colorize commands output or STDIN using patterns. (fork of colorex)</li>
+<li>
+<a href="http://tldp.org/HOWTO/Bash-Prompt-HOWTO/x405.html"><code>tput</code></a> - move the cursor around the screen, set colors. <a href="http://web.archive.org/web/20150516204328/http://wiki.bash-hackers.org/scripting/terminalcodes">examples</a>
+</li>
+<li><a href="https://github.com/mkoskar/tcolors"><code>tcolors</code></a></li>
+<li>
+<a href="https://launchpad.net/ubuntu/raring/+package/colortest">colortest</a> - utilities to test color capabilities of terminal</li>
+<li>
+<a href="http://www.vanheusden.com/multitail/"><code>multitail</code></a> - allows you to monitor logfiles and command output in multiple windows in a terminal, colorize, filter and merge</li>
+</ul>
+
+<h3>
+<a id="parameters" class="anchor" href="#parameters" aria-hidden="true"><span class="octicon octicon-link"></span></a>Parameters</h3>
+
+<ul>
+<li>
+<code>less</code> - use <code>-r</code> to include color (and other escapes)</li>
+<li>
+<code>grep</code> - use <code>--color=always</code> or <code>--color=auto</code>
+</li>
+<li>
+<code>ls</code> - use <code>--color=always</code> or <code>--color=auto</code>
+</li>
+</ul>
+
+<h3>
+<a id="grc-definitions" class="anchor" href="#grc-definitions" aria-hidden="true"><span class="octicon octicon-link"></span></a>grc definitions</h3>
+
+<ul>
+<li>
+<a href="https://gist.github.com/vjt/1885569">Apache/nginx logs</a> <code>grc</code> definitions</li>
+<li><a href="https://github.com/seebi/dircolors-solarized">seebi/dircolors-solarized</a></li>
+</ul>
+
+<h3>
+<a id="terminal-colors" class="anchor" href="#terminal-colors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Terminal colors</h3>
+
+<ul>
+<li>
+<a href="http://ethanschoonover.com/solarized">altercation/solarized</a> - Just solarized PuTTY colors (<a href="https://github.com/altercation/solarized/tree/master/PuTTY-colors-solarized">homepage</a>)</li>
+<li>
+<a href="https://github.com/jblaine/solarized-and-modern-PuTTY">jblaine/solarized-and-modern-PuTTY</a> - Solarized Modern PuTTY Defaults</li>
+<li>
+<a href="https://gist.github.com/GDvalle/4187089">Monokai</a> for PuTTY</li>
+<li>
+<a href="https://github.com/soumyadipdm/Heavenly-PuTTY-color-scheme">Heavenly</a> for PuTTY</li>
+<li>
+<a href="https://www.igvita.com/2008/04/14/custom-PuTTY-color-themes/">Igvita</a> for PuTTY (two themes)</li>
+<li>
+<a href="http://looselytyped.blogspot.com/2013/02/zenburn-pleasant-color-scheme-for-putty.html">Zenburn</a> for PuTTY</li>
+<li>
+<a href="http://eclectide.com/blog/2015/03/21/my-putty-color-scheme/">Darekkay's theme@Ecletide</a> for PuTTY</li>
+<li>
+<a href="http://ciembor.github.io/4bit/">4bit Terminal Color Scheme Designer</a> - generate color definitions for multiple terminals, including PuTTY, xterm, gnome-terminal, mintty, and konsole</li>
+<li>
+<a href="https://terminal.sexy">Terminal.sexy</a> - Similar to above 4bit designer, with different output formats (also including PuTTY</li>
+</ul>
+
+<h3>
+<a id="shell-colors" class="anchor" href="#shell-colors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Shell colors</h3>
+
+<ul>
+<li><a href="https://github.com/trapd00r/zsh-syntax-highlighting-filetypes">zsh syntax highlighting</a></li>
+<li><a href="https://github.com/seebi/tmux-colors-solarized">TMux Solarized theme</a></li>
+<li><a href="http://zshthem.es/all">oh-my-zsh themes</a></li>
+<li>
+<a href="https://github.com/trapd00r/LS_COLORS">trapd00r/LS_COLORS</a> - a collection of extension:color mappings, suitable to use as your LS COLORS environment variable</li>
+</ul>
+
+<h3>
+<a id="other-resources" class="anchor" href="#other-resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other resources</h3>
+
+<ul>
+<li><a href="http://wynnnetherland.com/journal/a-stylesheet-author-s-guide-to-terminal-colors/">A stylesheet author's guide to terminal colors</a></li>
+<li><a href="https://github.com/ciembor/coloration">Textmate to Vim, JEdit and Kate/KWrite color scheme converter</a></li>
+<li><a href="https://github.com/ciembor/geany-themes">A collection of color themes for Geany</a></li>
+<li>
+<a href="https://wiki.archlinux.org/index.php/Color_Bash_Prompt">Color Bash Prompt</a> from Arch Linux wiki.</li>
+<li>
+<a href="http://byobu.co">Byobu</a> - a wrapper for <code>screen</code> and <code>tmux</code>, provides notifications and other info.</li>
+<li>
+<a href="http://git-prompt.sh/">git-prompt.sh</a> - colorized git prompt. Included in liquidprompt.</li>
+<li>
+<a href="http://misc.flogisoft.com/bash/tip_colors_and_formatting">Bash tips: Colors and formatting</a> - ANSI/VT100 Control sequences</li>
+<li><a href="http://unix.stackexchange.com/questions/41563/how-to-create-a-testcolor-sh-like-the-following-screenshot">Testcolor scripts</a></li>
+</ul>
+
+<p><a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" alt="CC0"></a></p>
+
+<p>To the extent possible under law, the author has waived all copyright and related or neighboring rights to this work.</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-38244126-5");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
