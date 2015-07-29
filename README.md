@@ -1,5 +1,5 @@
 # awesome-colorterm
-A curated list of scripts, programs, and other functions for a colorful terminal environment.
+A curated list of [awesome](https://github.com/sindresorhus/awesome) scripts, programs, and other functions for a colorful terminal environment.
 
 ### Info
 You'll probably want to set your terminal type to xterm-256color or screen-256color.
