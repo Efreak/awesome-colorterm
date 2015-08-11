@@ -23,9 +23,18 @@ You'll probably want to set your terminal type to xterm-256color or screen-256co
 * [`colorex`](https://bitbucket.org/linibou/colorex/wiki/Home) - display files or sdtin with pretty colors for matched patterns.
 * [`rainbow`](https://github.com/nicoulaj/rainbow) - Colorize commands output or STDIN using patterns. (fork of colorex)
 * [`tput`](http://tldp.org/HOWTO/Bash-Prompt-HOWTO/x405.html) - move the cursor around the screen, set colors. [examples](http://web.archive.org/web/20150516204328/http://wiki.bash-hackers.org/scripting/terminalcodes)
-* [`tcolors`](https://github.com/mkoskar/tcolors)
+* [`tcolors`](https://github.com/mkoskar/tcolors) - Get & Set terminal ANSI colors
 * [colortest](https://launchpad.net/ubuntu/raring/+package/colortest) - utilities to test color capabilities of terminal
 * [`multitail`](http://www.vanheusden.com/multitail/) - allows you to monitor logfiles and command output in multiple windows in a terminal, colorize, filter and merge
+* [`colortail`](https://github.com/joakim666/colortail) - uses regular expressions to determine [what] to print in which colors.
+* [`colortail`](https://github.com/elubow/colortail) (a [ruby gem](https://rubygems.org/gems/colortail/versions/0.1.7))
+* [`colorgcc`](https://schlueters.de/colorgcc.html) - colorize the terminal output of GCC so error messages can be found 
+* [`cw`](http://freecode.com/projects/cw) - color wrapper is a non-intrusive real-time ANSI color wrapper for common Unix-based commands.
+* [`cope`](https://github.com/neoice/cope) - a wrapper around programs that output to a terminal, to give them colour
+* [`colorsvn`](http://colorsvn.tigris.org/)
+* [`colorcvs`](https://github.com/wyuka/kdesdk/blob/master/scripts/colorcvs)
+* [`colorifer`/`csed`/`pcolorize`](http://colorifer.sourceforge.net/)
+* [`colornant`](https://sites.google.com/site/colornant/)
 
 ### Parameters
 * `less` - use `-r` to include color (and other escapes)
@@ -62,6 +71,7 @@ You'll probably want to set your terminal type to xterm-256color or screen-256co
 * [git-prompt.sh](http://git-prompt.sh/) - colorized git prompt. Included in liquidprompt.
 * [Bash tips: Colors and formatting](http://misc.flogisoft.com/bash/tip_colors_and_formatting) - ANSI/VT100 Control sequences
 * [Testcolor scripts](http://unix.stackexchange.com/questions/41563/how-to-create-a-testcolor-sh-like-the-following-screenshot)
+* [console-colors.de](http://web.archive.org/web/20150801073414/http://console-colors.de/) - a defunct wiki
 
 
 
